@@ -24,3 +24,14 @@ Este conteúdo é totalmente fictício e criado com fins educacionais. Nenhuma d
 2. Abra o arquivo `index.html` no navegador  
 3. Personalize suas próprias questões no arquivo `perguntas.json`, com base nas suas anotações de estudo. Mantenha o mesmo formato de estrutura.  
 4. (Opcional) Publique com [GitHub Pages](https://pages.github.com/) para acesso online  
+
+## 🖼️ Demonstração
+
+### 💡 Exemplo de pergunta com explicação automática:
+![Simulador em execução – pergunta](./assets/simulador-pergunta.png)
+
+### ✅ Tela de resultado por bloco:
+![Resultado por bloco](./assets/simulador-resultado.png)
+
+### ⚠️ Aviso legal exibido na interface:
+![Aviso legal em destaque](./assets/simulador-aviso.png)
