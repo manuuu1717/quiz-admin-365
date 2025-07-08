@@ -33,5 +33,3 @@ Este conteúdo é totalmente fictício e criado com fins educacionais. Nenhuma d
 ### ✅ Tela de resultado por bloco:
 ![Resultado por bloco](./assets/simulador-resultado.png)
 
-### ⚠️ Aviso legal exibido na interface:
-![Aviso legal em destaque](./assets/simulador-pergunta.png)
