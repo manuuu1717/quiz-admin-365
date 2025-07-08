@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Estudos - Administrador 365</title>
+  <link rel="stylesheet" href="style.css?v=4" />
+</head>
+<body>
+  <div class="quiz-box">
+    <h1>Estudos - Administrador 365</h1>
+    <p id="total-perguntas-info"></p>
+    <div class="progress-container">
+        <div id="progress-bar" class="progress-bar">
+            <span id="progress-text" class="progress-text"></span>
+        </div>
+    </div>
+    <div id="quiz">
+      <p id="pergunta"></p>
+      <ul id="opcoes"></ul>
+      <button id="proxima" style="display: none;">Próxima Pergunta</button>
+      <div id="feedback"></div>
+      <div id="explicacaoGPT" class="explicacao"></div>
+    </div>
+  </div>
+
+  <div id="resultado" class="resultado" style="display: none;"></div>
+
+  <!-- Aviso legal -->
+  <div class="aviso-legal" style="text-align: center; font-size: 19px; color: #666; margin-top: 40px; padding: 20px;">
+    <p><strong>Aviso Legal:</strong> Este conteúdo é totalmente fictício e criado com fins educacionais. Nenhuma das perguntas representa exames oficiais da Microsoft. Este simulador é independente e não possui qualquer vínculo com a Microsoft.</p>
+  </div>
+
+  <script src="script.js?v=4"></script>
+</body>
+</html>

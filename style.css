@@ -1,0 +1,236 @@
+body {
+    background: #0e1a2b;
+    font-family: Arial, sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+.quiz-box {
+    max-width: 700px;
+    margin: 40px auto;
+    background: #1f2d3d;
+    padding: 30px;
+    border-radius: 10px;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #00bfff;
+}
+#opcoes li {
+    list-style: none;
+    margin: 10px 0;
+}
+#opcoes button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    background: #005fa3;
+    color: white;
+    transition: 0.3s;
+}
+#opcoes button:hover {
+    background: #007acc;
+}
+#feedback {
+    margin-top: 10px;
+    font-weight: bold;
+}
+.explicacao {
+    margin-top: 15px;
+    padding: 10px;
+    background: #243445;
+    border-left: 5px solid #00bfff;
+    display: none;
+}
+#proxima {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #00bfff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.resultado {
+    max-width: 700px;
+    margin: 40px auto;
+    background: #1f2d3d;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.2em;
+}
+.resultado.aprovado {
+    color: #00ff99;
+}
+.resultado.reprovado {
+    color: #ff4c4c;
+}
+
+/* --- ESTILOS DA BARRA DE PROGRESSO E TABELA DE RESUMO (REVISADOS) --- */
+
+.progress-container {
+    width: 100%;
+    background-color: #f3f3f3; 
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    height: 25px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.progress-bar {
+    height: 100%;
+    width: 0%;
+    background-color: #4CAF50; 
+    border-radius: 5px;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    color: white; 
+    transition: width 0.4s ease-in-out;
+}
+
+.progress-text {
+    font-weight: bold;
+    white-space: nowrap; 
+}
+
+.tabela-resumo-blocos {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    color: white; 
+}
+
+.tabela-resumo-blocos th,
+.tabela-resumo-blocos td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    color: #333; 
+}
+
+.tabela-resumo-blocos th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.aprovado-linha {
+    background-color: #d4edda;
+}
+
+.reprovado-linha {
+    background-color: #f8d7da;
+}
+
+
+.status-aprovado {
+    color: #00ff99; 
+    font-size: 1.2em;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.status-reprovado {
+    color: #ff4c4c; 
+    font-size: 1.2em;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+
+.botoes-resultado {
+    display: flex;
+    justify-content: center;
+    gap: 15px; 
+    margin-top: 30px;
+    flex-wrap: wrap; 
+}
+
+
+.tabela-resumo-categorias,
+.tabela-resumo-blocos {
+    width: 100%;
+    border-collapse: collapse; 
+    margin-top: 20px;
+    font-size: 0.95em;
+    table-layout: fixed; 
+}
+
+
+.tabela-resumo-categorias th,
+.tabela-resumo-blocos th,
+.tabela-resumo-categorias td,
+.tabela-resumo-blocos td {
+    border: 1px solid #3a3a5a; 
+    padding: 12px 15px; 
+    text-align: left;
+    color: #c0c0c0; 
+    word-wrap: break-word; 
+}
+
+
+.tabela-resumo-categorias th,
+.tabela-resumo-blocos th {
+    background-color: #3a3a5a; 
+    font-weight: bold;
+    color: #e0e0e0; 
+    text-transform: uppercase; 
+    letter-spacing: 0.05em; 
+}
+
+
+.tabela-resumo-categorias tbody tr:nth-child(even),
+.tabela-resumo-blocos tbody tr:nth-child(even) {
+    background-color: #303050; 
+}
+
+.tabela-resumo-categorias tbody tr:nth-child(odd),
+.tabela-resumo-blocos tbody tr:nth-child(odd) {
+    background-color: #2a2a4a; 
+}
+
+
+.aprovado-linha {
+    background-color: #2a4a30 !important; 
+}
+.reprovado-linha {
+    background-color: #4a2a30 !important; 
+}
+
+
+.porcentagem-categoria,
+.porcentagem-aprovacao-bloco {
+    font-weight: bold;
+
+}
+
+
+@media (max-width: 768px) {
+    .botoes-resultado {
+        flex-direction: column; 
+        gap: 10px; 
+    }
+    .botoes-resultado button {
+        width: 100%; 
+        margin: 0; 
+    }
+    .tabela-resumo-categorias th,
+    .tabela-resumo-blocos th,
+    .tabela-resumo-categorias td,
+    .tabela-resumo-blocos td {
+        padding: 8px 10px; 
+        font-size: 0.85em; 
+    }
+}
+

@@ -1,0 +1,132 @@
+[
+  {
+    "id": 1,
+    "pergunta": "Qual a Opção Principal do Recurso Genérico Um para Avaliação de Conteúdo Aleatório?",
+    "alternativas": {
+      "A": "Alternativa Alpha da Pergunta 01",
+      "B": "Alternativa Beta da Pergunta 01",
+      "C": "Alternativa Gama da Pergunta 01",
+      "D": "Alternativa Delta da Pergunta 01"
+    },
+    "correta": "C",
+    "explicacao": "A Opção Gama representa a melhor escolha para o Cenário 1, conforme os critérios estabelecidos para a Validação Genérica de Conteúdo.",
+    "categoria": "Categoria Exemplar Um"
+  },
+  {
+    "id": 2,
+    "pergunta": "No Processo de Gerenciamento de Elementos Arbitrários, qual a funcionalidade que permite Atribuição Temporária de Permissões de Teste, com Condições como Validação Multi-Fator e Justificativa?",
+    "alternativas": {
+      "A": "Configurações de Acesso Auxiliar",
+      "B": "Perfis de Acesso Adaptáveis",
+      "C": "Atribuição Direta de Permissão",
+      "D": "Gerenciamento de Identidade Privilegiada (Placeholder)"
+    },
+    "correta": "D",
+    "explicacao": "A Opção D é o modelo de Gerenciamento de Identidade Privilegiada, permitindo controle granular e temporário de acessos, ideal para cenários de alta segurança em sistemas abstratos.",
+    "categoria": "Categoria Exemplar Dois"
+  },
+  {
+    "id": 3,
+    "pergunta": "Se um Usuário Reporta Disfunção ou Interrupção em Sistemas Distribuídos Modelo X ou Y, qual é a Primeira Fonte a Consultar para Verificar a Saúde do Serviço antes de Escalar o Suporte?",
+    "alternativas": {
+      "A": "Painel de Análise de Desempenho",
+      "B": "Registro de Acessos Recentes",
+      "C": "Indicador de Status do Sistema (Painel de Teste)",
+      "D": "Console de Administração de Componentes"
+    },
+    "correta": "C",
+    "explicacao": "O Indicador de Status do Sistema é a fonte primária para verificar a condição operacional de qualquer serviço, exibindo anomalias e histórico de eventos para um diagnóstico inicial.",
+    "categoria": "Categoria Exemplar Três"
+  },
+  {
+    "id": 4,
+    "pergunta": "Um Administrador Deseja Permitir Acesso a uma Plataforma Virtual de Dados de Dispositivos Pessoais, mas Restringir o Download de Dados Sensíveis. Qual Característica da Política de Acesso Abstrata Deve Ser Utilizada para Controlar essa Interação de Sessão?",
+    "alternativas": {
+      "A": "Requerimento de Validação Adicional",
+      "B": "Bloqueio Integral de Acesso",
+      "C": "Condição Baseada em Geocalização",
+      "D": "Regra de Comportamento de Sessão (com Módulo de Análise)"
+    },
+    "correta": "D",
+    "explicacao": "Regras de Comportamento de Sessão permitem ajustar dinamicamente as permissões durante uma sessão, sem a necessidade de bloqueio total, controlando ações específicas como downloads de arquivos.",
+    "categoria": "Categoria Exemplar Dois"
+  },
+  {
+    "id": 5,
+    "pergunta": "Um Usuário Redefine sua Credencial de Acesso em Ambiente de Nuvem, mas a Nova Credencial Não é Replicada no Diretório Local. Qual Recurso do Conector de Sincronização é Essencial para que a Credencial Modificada na Nuvem Seja Propagada de Volta ao Ambiente Local?",
+    "alternativas": {
+      "A": "Sincronização de Assinatura de Credencial",
+      "B": "Autenticação Direta",
+      "C": "Conexão Única Contínua",
+      "D": "Gravação de Credenciais de Retorno"
+    },
+    "correta": "D",
+    "explicacao": "A Gravação de Credenciais de Retorno é a função que assegura que as mudanças de senha iniciadas na nuvem sejam escritas de volta no ambiente local, mantendo a consistência.",
+    "categoria": "Categoria Exemplar Dois"
+  },
+  {
+    "id": 6,
+    "pergunta": "Um Analista de Segurança Necessita Identificar Rapidamente Dispositivos na Rede com Software Desatualizado ou Vulnerabilidades Conhecidas (IDs de Vulnerabilidade) e Obter Sugestões para Correção. Qual Módulo do Sistema de Defesa de Ponto Final Deve Ser Empregado para essa Análise?",
+    "alternativas": {
+      "A": "Monitoramento e Resposta a Eventos",
+      "B": "Minimização da Superfície de Exposição",
+      "C": "Gestão de Ameaças e Pontos Fracos (Análise de Teste)",
+      "D": "Investigação e Resposta Automatizadas"
+    },
+    "correta": "C",
+    "explicacao": "O Módulo de Gestão de Ameaças e Pontos Fracos é o responsável por inventariar software e drivers, identificar vulnerabilidades e fornecer recomendações de correção para melhorar a postura de segurança.",
+    "categoria": "Categoria Exemplar Um"
+  },
+  {
+    "id": 7,
+    "pergunta": "No Contexto da Gestão de Conformidade em um Ambiente de Controle de Dados, qual a Principal Distinção entre um 'Rótulo de Confidencialidade' e um 'Rótulo de Retenção'?",
+    "alternativas": {
+      "A": "Rótulos de Confidencialidade para Segurança de Equipamentos, Rótulos de Retenção para Segurança de Comunicações.",
+      "B": "Rótulos de Confidencialidade para Criptografia de Dados, Rótulos de Retenção para Criptografia de Endereços.",
+      "C": "Rótulos de Confidencialidade Focam na Proteção e Natureza do Conteúdo, enquanto Rótulos de Retenção Controlam o Período de Vida (Armazenamento/Exclusão) das Informações.",
+      "D": "Rótulos de Confidencialidade Aplicados Automaticamente, Rótulos de Retenção Sempre Manuais."
+    },
+    "correta": "C",
+    "explicacao": "Rótulos de Confidencialidade são para proteger o acesso e a visualização do conteúdo, enquanto Rótulos de Retenção definem por quanto tempo o conteúdo deve ser mantido ou quando deve ser automaticamente removido.",
+    "categoria": "Categoria Exemplar Quatro"
+  },
+  {
+    "id": 8,
+    "pergunta": "Em um Cenário de Gerenciamento de Identidades e Acessos, uma Entidade Precisa que Todos os Novos Membros de uma Área Funcional Recebam Automaticamente Credenciais e Permissões para Recursos Específicos, Sem Intervenção Manual. Qual Modelo de Agrupamento de Elementos é Mais Adequado para essa Automação?",
+    "alternativas": {
+      "A": "Agrupamento de Acesso Básico",
+      "B": "Agrupamento de Colaboração Integral",
+      "C": "Agrupamento de Comunicação",
+      "D": "Agrupamento com Membros Definidos por Regras"
+    },
+    "correta": "D",
+    "explicacao": "Agrupamentos com Membros Definidos por Regras permitem que a filiação seja automatizada com base em atributos de usuários, ideal para automação de permissões e licenciamento em larga escala.",
+    "categoria": "Categoria Exemplar Dois"
+  },
+  {
+    "id": 9,
+    "pergunta": "No Contexto de Gerenciamento de Segurança e Ameaças, qual a Diferença Fundamental entre uma 'Notificação de Evento' e um 'Contexto de Ocorrência Consolidada' em um Sistema de Defesa Centralizado?",
+    "alternativas": {
+      "A": "Notificações de Evento Originadas por Usuários, Contextos por Administradores.",
+      "B": "Notificações de Evento de Alta Gravidade Únicas, Contextos de Baixa Gravidade Únicos.",
+      "C": "Notificações de Evento Indicam Atividades Suspeitas Individuais, enquanto Contextos de Ocorrência Agrupam Múltiplas Notificações Relacionadas para Formar um Cenário Completo de Ataque.",
+      "D": "Notificações de Evento para Relatórios Diários, Contextos para Investigações Anuais."
+    },
+    "correta": "C",
+    "explicacao": "Notificações de Evento são pontos de detecção isolados, enquanto Contextos de Ocorrência Consolidada reúnem esses pontos para montar uma visão abrangente de um ataque em progresso.",
+    "categoria": "Categoria Exemplar Um"
+  },
+  {
+    "id": 10,
+    "pergunta": "Em relação à Implementação e Gerenciamento de Identidade e Acesso, qual Tipo de Autenticação é Desaconselhado por ser Considerado Menos Seguro e Suscetível a Ataques como Brute Force e Reutilização de Credenciais, Sendo Recomendado seu Bloqueio?",
+    "alternativas": {
+      "A": "Autenticação Biométrica Avançada",
+      "B": "Aplicativo de Autenticação Multifator",
+      "C": "Chaves de Segurança Físicas",
+      "D": "Autenticação Tradicional Legada (Protocolos Antigos)"
+    },
+    "correta": "D",
+    "explicacao": "Autenticações tradicionais legadas, como aquelas baseadas em protocolos mais antigos, são mais vulneráveis e devem ser desativadas via políticas de segurança avançadas.",
+    "categoria": "Categoria Exemplar Dois"
+  }
+]
