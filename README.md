@@ -28,10 +28,10 @@ Este conteúdo é totalmente fictício e criado com fins educacionais. Nenhuma d
 ## 🖼️ Demonstração
 
 ### 💡 Exemplo de pergunta com explicação automática:
-![Simulador em execução – pergunta](./assets/simulador-pergunta.png)
+![Simulador em execução – pergunta](./assets/simulador-explicacao.png)
 
 ### ✅ Tela de resultado por bloco:
 ![Resultado por bloco](./assets/simulador-resultado.png)
 
 ### ⚠️ Aviso legal exibido na interface:
-![Aviso legal em destaque](./assets/simulador-aviso.png)
+![Aviso legal em destaque](./assets/simulador-pergunta.png)
