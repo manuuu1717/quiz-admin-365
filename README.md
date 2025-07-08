@@ -9,9 +9,11 @@ Oferecer uma ferramenta gratuita e leve para fixação de conteúdos técnicos, 
 ## 🚀 Recursos
 
 - Interface responsiva e leve  
+- Perguntas exibidas em ordem aleatória a cada execução  
+- Alternativas embaralhadas automaticamente em cada pergunta  
 - Barra de progresso com feedback em tempo real  
 - Explicação automática após cada resposta  
-- Perguntas e alternativas totalmente originais e genéricas  
+- Resumo de desempenho ao final de cada bloco (acertos, erros, % por categoria)  
 - Compatível com GitHub Pages  
 
 ## ⚠️ Aviso Legal
