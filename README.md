@@ -1,10 +1,10 @@
 # Simulador de Estudos – Administrador 365
 
-Simulador interativo para estudos práticos e revisão de conceitos relacionados à administração de ambientes Microsoft 365. Desenvolvido com HTML, CSS e JavaScript puro, o projeto apresenta questões fictícias e abstratas, focadas em raciocínio técnico, segurança, conformidade e governança de identidade — inspirado em desafios enfrentados por administradores de ambientes corporativos baseados em nuvem.
+Simulador interativo para estudos práticos e revisão de conceitos relacionados à administração de ambientes Cloud. Desenvolvido com HTML, CSS e JavaScript puro, o projeto apresenta questões fictícias e abstratas, focadas em raciocínio técnico, segurança, conformidade e governança de identidade — inspirado em desafios enfrentados por administradores de ambientes corporativos baseados em nuvem.
 
 ## 🎯 Objetivo
 
-Oferecer uma ferramenta gratuita e leve para fixação de conteúdos técnicos, sem qualquer vínculo com provas oficiais ou questões reais da Microsoft.
+Oferecer uma ferramenta gratuita e leve para fixação de conteúdos técnicos, sem qualquer vínculo com provas oficiais ou questões reais.
 
 ## 🚀 Recursos
 
@@ -18,7 +18,7 @@ Oferecer uma ferramenta gratuita e leve para fixação de conteúdos técnicos, 
 
 ## ⚠️ Aviso Legal
 
-Este conteúdo é totalmente fictício e criado com fins educacionais. Nenhuma das perguntas representa exames oficiais da Microsoft. Este simulador é independente e não possui qualquer vínculo com a Microsoft.
+Este conteúdo é totalmente fictício e criado com fins educacionais. Nenhuma das perguntas representa exames oficiais . Este simulador é independente e não possui qualquer vínculo com terceiros.
 
 ## 📦 Como usar
 
